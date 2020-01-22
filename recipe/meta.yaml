@@ -1,5 +1,5 @@
 {% set name = "paragraph" %}
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 
 package:
   name: python-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2280fa05f253d26196768872f54977dcd223732e82776532f1b3d36602196b78
+  sha256: dacf086df7ed71ed3af50756a86ff9f44f95cba0f92498769096ec9fd168e2c1
 
 build:
   number: 0
